@@ -1,0 +1,202 @@
+body{
+    font-family: iannnnn-DUCK ;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: clamp(16px, 2.5vw , 30px);
+}
+h2{
+    width: 20%;
+    background-color: #D7977C;
+    border-radius: 80px;
+    margin-left: 30px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-size: clamp(16px, 2.5vw , 30px);
+
+}
+h3{
+    color: white;
+    font-size: 100%;
+}
+
+span{
+    color:#D7977C ;
+}
+.Topic{
+    background-color: #D7977C;
+    border-radius: 80px;
+    border: 5px dotted #D7977C;
+    width: 50%;
+    color: rgb(228, 228, 228);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-size: clamp(10px, 2.5vw , 30px);
+}
+.Ingredients{
+    color: #88735E;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+}
+
+.instruction{
+    color: #88735E;
+    display: flex;
+    font-size: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+img{
+    width: 100%;
+    vertical-align: middle;
+    margin: 10px;
+}
+.img1{
+    display: grid;
+    text-align: center;
+    width: 40%;
+}
+
+.img2{
+    display: grid;
+    text-align: center;
+    width: 30%;
+}
+.img3{
+    display: grid;
+    text-align: center;
+    width: 30%;
+    margin-left: 30%;
+}
+
+ul{
+    display: grid;
+    text-align: left;
+    font-size: clamp(10px, 2.5vw , 20px);
+    margin-left: 50px;
+    width: 50%;
+}
+ol{
+    display: grid;
+    text-align: left;
+    font-size: clamp(10px, 2.5vw , 20px);
+    margin : LEFT;
+    margin-left: 50px;
+    width: 50%;
+}
+
+
+.allimage{
+    display: flex;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    width: 60%;
+    margin-left: 20%;
+    
+}
+
+hr{
+    width: 70%;
+    border: 5px dotted #D7977C;
+}
+
+
+div{
+    text-align: center;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    grid-gap: 0;
+}
+
+.grid-container > div{
+    font-size: 20px;
+    background-color: rgb(255, 237, 214);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+} 
+
+#header{
+    padding: 50px;
+    grid-column: 1 / span 3;
+    background: url(https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_45/1802953/cinnamon-rolls-kb-main-211111.jpg);
+    width: 100%;
+}
+
+#menu{
+    grid-column: 1 / span 1;
+    background-color: white;
+}
+
+#main{
+    background-color: rgb(247, 229, 208);
+    grid-column: 2 / span 1;
+}
+#right{
+    grid-column: 3 / span 1;
+    background-color: white;
+}
+
+#footer{
+    background-color: #D7977C;
+    grid-column: 1 / span 3;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 0;
+		  
+	}
+
+	#header{
+        grid-column: 1 / span 3;
+    }
+    
+    
+    #main{
+        grid-column: 1 / span 3;
+    }
+
+    #footer{
+        grid-column: 1 / span 3;
+    }
+}
+/*@media only screen and (max-width: 480px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 0;
+		  
+	}
+
+	#header{
+        grid-column: 1 / span 3;
+    }
+    
+    
+    #main{
+        grid-column: 1 / span 3;
+    }
+
+    #footer{
+        grid-column: 1 / span 3;
+    }
+}*/
+
+#right img{
+    width:100%;
+}
+
+#right div{
+    margin-bottom: 20px;
+} 

@@ -1,0 +1,97 @@
+#squares-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    background-color: rgb(211, 211, 211);
+    font-family: supermarket Regular ;
+    padding-top: 10%;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    border: 0px solid black;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.red{
+    background-color: red;
+    opacity: 0.8;
+    
+}
+.blue{
+    background-color: blue;
+    opacity: 0.8;
+    
+}
+
+.green{
+    background-color: green;
+    opacity: 0.8;
+}
+fieldset{
+    
+    text-align: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(235, 235, 235);
+    border: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#game-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+fieldset button {
+    text-align: center;
+    background-color: #04AA6D;
+    color: rgb(224, 224, 224);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom:10px;
+    opacity: 0.5;
+    font-size: 80%;
+    border-radius: 480px;
+    transition: 0.5s;
+    
+}
+fieldset button:hover{
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    
+}
+fieldset input {
+    padding: 3px ;
+    border: none;
+    background: #ffffff;
+    resize: none;
+}
+fieldset select {
+    padding: 3px;
+    border: none;
+    background: #ffffff;
+    resize: none;
+}

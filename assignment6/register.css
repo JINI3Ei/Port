@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(233, 233, 233);
+    font-family: iannnnn-DUCK ;
+    padding-top: 10%;
+}
+hr{
+    width: 100%;
+    border: 1px solid #aaaaaa;
+}
+fieldset{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin-left: 35%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#errormsg{
+    background-color: rgb(255, 123, 123);
+}
+.fn{
+    margin-top: 20px;
+}
+.BT1{
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+    padding: 1% 1%;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom:10px;
+    opacity: 0.8;
+    font-size: 80%;
+}
+.BT2{
+    background-color: red;
+    color: white;
+    padding: 1% 1%;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    font-size: 80%;
+}
+input{
+    margin-left: 10px;
+    background: #f1f1f1;
+    margin-bottom: 5px;
+}
+input .name{
+    margin-top: 200px;
+}
