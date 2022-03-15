@@ -343,7 +343,7 @@
 }
 .item4{
     padding-top: 40%;
-    background-image: url(/Port/image/about/hobby/godzilla.jpg);
+    background-image: url("/Port/image/about/hobby/godzilla.jpg");
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
