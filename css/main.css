@@ -153,7 +153,7 @@
 }*/
 .grid-content .topic .img-content{
     width: 100%;
-    background: url(/Port/about/editbg.png);
+    background: url(/Port/image/about/editbg.png);
     background-position: 75%;
     background-position-y: 120px;
     background-size: contain;
@@ -319,7 +319,7 @@
 .item1{
     padding-top: 40%;
     justify-content: center;
-    background-image: url(/Port/about/hobby/fps.jpg);
+    background-image: url(/Port/image/about/hobby/fps.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -327,7 +327,7 @@
 }
 .item2{
     padding-top: 40%;
-    background-image: url(/Port/about/hobby/gunpla.jpg);
+    background-image: url(/Port/image/about/hobby/gunpla.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -335,7 +335,7 @@
 }
 .item3{
     padding-top: 40%;
-    background-image: url(/Port/about/hobby/Treadmill.jpg);
+    background-image: url(/Port/image/about/hobby/Treadmill.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -343,7 +343,7 @@
 }
 .item4{
     padding-top: 40%;
-    background-image: url(/Port/about/hobby/godzilla.jpg);
+    background-image: url(/Port/image/about/hobby/godzilla.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
