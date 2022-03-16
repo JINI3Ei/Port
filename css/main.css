@@ -65,23 +65,22 @@
     /*background-repeat: no-repeat ;*/
 }
 #jbpic{
-    width: 330px;
+    width: 30%;
+    min-width: 200px;
     border-radius: 480px;
     border: 20px solid #8269D1;
 }
 .Content{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 400px 500px;
-    margin: 0 200px;
-
+    grid-template-rows: auto;
+    margin: 0 20%;
 }
 .Content .top{
     font-size: 3em;
     margin-top: 100px;
     color: white;
     letter-spacing: 2px;
-    
 }
 .Content .top .fullname{
     -webkit-text-fill-color:transparent;
@@ -91,6 +90,9 @@
 .Content .top .job{
     font-size: 20px;
     text-shadow: 2px 2px rgb(84,79,99);
+}
+.photojb{
+    padding-top: 5%;
 }
 
 .Content .top .fullname:hover{
@@ -102,20 +104,60 @@
 
 .Content .profile .bio{
     background-color: white;
-    padding: 100px;
+    padding: 20px;
     margin-top: -100px;
     border-radius: 10px;
-}
-
-.Content .profile .bio{
     border-top:  10px solid #8269D1;
     border-bottom:  10px solid #8269D1;
-    padding-top: 150px;
-    font-size: 40px;
-
+    padding-top: 90px;
+    font-size: 30px;
 }
 
+.Content .profile .bio span{
+    font-size: 25px;
+}
 
+@media only screen and (max-width: 820px) {
+    .Content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin: 0 1%;
+    }
+
+    .Content .profile .bio span{
+        font-size: 20px;
+    }
+
+    .Content .top{
+        font-size: 1em;
+        margin-top: 100px;
+        color: white;
+        letter-spacing: 2px;
+    }
+
+}
+@media only screen and (max-width: 414px) {
+    .Content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .Content .profile .bio span{
+        font-size: 10px;
+    }
+    .Content .profile{
+        padding-top: 20px;
+    }
+    .Content .top{
+        font-size: 1em;
+        margin-top: 20px;
+        color: white;
+        letter-spacing: 2px;
+    }
+
+}
 
 
 
@@ -153,7 +195,7 @@
 }*/
 .grid-content .topic .img-content{
     width: 100%;
-    background: url(/Port/image/about/editbg.png);
+    background: url("/Port/image/about/editbg.png");
     background-position: 75%;
     background-position-y: 120px;
     background-size: contain;
@@ -319,7 +361,7 @@
 .item1{
     padding-top: 40%;
     justify-content: center;
-    background-image: url(/Port/image/about/hobby/fps.jpg);
+    background-image: url("/Port/image/about/hobby/fps.jpg");
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -327,7 +369,7 @@
 }
 .item2{
     padding-top: 40%;
-    background-image: url(/Port/image/about/hobby/gunpla.jpg);
+    background-image: url("/Port/image/about/hobby/gunpla.jpg");
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -335,7 +377,7 @@
 }
 .item3{
     padding-top: 40%;
-    background-image: url(/Port/image/about/hobby/Treadmill.jpg);
+    background-image: url("/Port/image/about/hobby/Treadmill.jpg");
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -645,6 +687,7 @@ video{
 .grid_port_ae .cover_ae .text_ae{
     font-size: 20px;
     color: white;
+    padding-bottom: 100px;
 }
 .grid_port_as{
     margin-top: 36px;
@@ -685,3 +728,62 @@ video{
 
 
 /*-----------port--------------*/
+/*-----------contact---------*/
+
+.contact_content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 20px;
+    justify-content: center;
+    text-align: center; 
+    background-color: #342735;
+    width: 100%;
+    padding-bottom: 300px;
+}
+.contact_content h1{
+    padding-top: 5%;
+    color: white;
+}
+.contact_content .inside_contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 20px;
+    justify-content: center;
+    text-align: center; 
+    background-color: #8375ad;;
+    width: 100%;
+    color: white;
+    padding-bottom: 20px;
+}
+.inf_contact{
+    padding-left: 30px;
+}
+.contact_content .inside_contact img{
+    width: 50%;
+    min-width: 300px;
+    border-radius: 480px;
+    border: 5px solid white;
+}
+.contact_content .inside_contact .image_contact{
+    padding-top: 5%;
+}
+.contact_content .inside_contact .inf_contact{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 20px;
+    justify-content: center;
+    text-align: left; 
+    width: 100%;
+    color: white;
+    padding-top: 5%;
+}
+.contact_content .inside_contact .inf_contact a{
+    font-size: 50px;
+    color: white;
+}
+
+
+
